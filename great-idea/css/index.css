@@ -75,35 +75,6 @@ h1, h2, h3, h4, h5 {
 	border: 2px solid black;
 }
 
-.parent {
-  width: 50%;
-  border: 2px solid black;
-  float: left;
-}
-
-.child {
-  width: 90%;
-  padding: 20%;
-  border: 2px solid black;
-  margin: .5em auto;
-}
-
-.twins {
-  width: 50%;
-  padding: 1em;
-  border: 2px solid black;
-  float: left;
-}
-
-.parent {
-	display: flex;
-	width: 50%;
-	border: 1px solid black;
-	flex-direction: row;
-	flex-wrap: wrap;
-	margin: 0 auto;
-}
-
 header {
 	width: 100%;
 	padding: 10px 20px 60px 20px;
@@ -112,7 +83,44 @@ header {
 	padding-top: 60px;
 }
 
-header nav {
+nav:hover {
+	transition-property: padding;
+	transition-duration: 0.5s;
+	padding: 10px 0;
+}
+
+
+	/* .parent {
+	width: 50%;
+	border: 2px solid black;
+	float: left;
+	}
+
+	.child {
+	width: 90%;
+	padding: 20%;
+	border: 2px solid black;
+	margin: .5em auto;
+	}
+
+	.twins {
+	width: 50%;
+	padding: 1em;
+	border: 2px solid black;
+	float: left;
+	} */
+
+/* .parent {
+	display: flex;
+	width: 50%;
+	border: 1px solid black;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 auto;
+} */
+
+
+/* header nav {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -123,16 +131,11 @@ header nav {
 	transition-property: padding;
 	transition-duration: 0.5s;
 	padding: 0px 0;
-}
+} */
 
-nav:hover {
-	transition-property: padding;
-	transition-duration: 0.5s;
-	padding: 10px 0;
-}
 
-header nav a {
-	/* display: inline-block;*/
+/* header nav a {
+	display: inline-block;
 	color: #888;
 	text-decoration: none;
 	font-weight: 400;
@@ -144,7 +147,7 @@ nav a:hover {
 	transition-duration: 0.5s, 0.5s;
 	color: #fff;
 	font-weight: bold;
-}
+} */
 
 .logo {
 	/* display: inline-block;*/
