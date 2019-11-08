@@ -100,7 +100,7 @@ nav:hover {
 }
 
 header nav a {
-	display: inline-block;
+	/* display: inline-block;*/
 	color: #888;
 	text-decoration: none;
 	font-weight: 400;
@@ -115,7 +115,7 @@ nav a:hover {
 }
 
 .logo {
-	display: inline-block;
+	/* display: inline-block;*/
 	background: url("https://i.imgur.com/RoKbjZH.png");
 	width: 183px;
 	height: 36px;
@@ -124,7 +124,7 @@ nav a:hover {
 }
 
 header .iov {
-	display: inline-block;
+	/* display: inline-block;*/
 	font-size: 75px;
 	text-align: center;
 	vertical-align: middle;
@@ -133,7 +133,7 @@ header .iov {
 }
 
 .header-image {
-	display: inline-block;
+	/* display: inline-block;*/
 	background: url("https://i.imgur.com/Hw8avII.png");
 	vertical-align: middle;
 	width: 379px;
@@ -163,7 +163,7 @@ header .iov {
 }
 
 .top-section div {
-	display: inline-block;
+	/* display: inline-block;*/
 	width: 500px;
 	margin: 0 auto;
 	margin-right: 10px;
@@ -190,7 +190,7 @@ header .iov {
 }
 
 .bottom-section div {
-	display: inline-block;
+	/* display: inline-block;*/
 	width: 330px;
 	margin: 0 auto;
 	margin-right: 10px;
