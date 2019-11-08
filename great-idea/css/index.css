@@ -66,13 +66,41 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 /* Your code starts here! */
-
-#wrapper {
+.body {
 	display: flex;
+	justify-content: center;
+}
+
+.main {
+	border: 2px solid black;
+}
+
+.parent {
+  width: 50%;
+  border: 2px solid black;
+  float: left;
+}
+
+.child {
+  width: 90%;
+  padding: 20%;
+  border: 2px solid black;
+  margin: .5em auto;
+}
+
+.twins {
+  width: 50%;
+  padding: 1em;
+  border: 2px solid black;
+  float: left;
+}
+
+.parent {
+	display: flex;
+	width: 50%;
+	border: 1px solid black;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 1024px;
-	/* width: 300px; */
 	margin: 0 auto;
 }
 
